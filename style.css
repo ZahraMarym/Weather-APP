@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Nunito:wght@600&display=swap');
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Merriweather', serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg , #02063b, #012127);
+}
+.card{
+    width:80%;
+    max-width: 470px;
+    background: linear-gradient(135deg , #00b7ff, #2a2a36);
+    color: rgb(0, 26, 49);
+    margin: 100px auto 0;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px 35px;
+}
+.search{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.search input{
+    border: 0;
+    margin: 0;
+    background-color: transparent;
+    color: rgb(0, 0, 22);
+    padding: 10px 25px;
+    height: 50px;
+    border: 2px solid rgb(0, 0, 22);
+    border-radius: 30px;
+    flex: 4;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search input::placeholder{
+    color: rgb(0, 0, 22);
+}
+.search button{
+    border: 0;
+    margin: 0;
+    background: linear-gradient(90deg , #02063b, #012127);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.search button img{
+    width: 25px;
+}
+.weather-icon{
+    margin-top: 30px;
+    width: 170px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin:-5px
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 20px;
+}
+.col img{
+    width: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.humidity, .wind, p{
+    color: black;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.weather{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
